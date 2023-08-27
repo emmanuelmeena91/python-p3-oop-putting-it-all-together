@@ -15,7 +15,7 @@ class Shoe:
         return self._brand
 
     @brand.setter
-    def brand(self, brand):
+    def brand(self, brand):  
         brand._self = brand
 
     @property
